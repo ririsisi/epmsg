@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="epmsg-service-api-impl" />
+        <module name="epmsg-web" />
+        <module name="epmsg-cron" />
+        <module name="epmsg-hander" />
+        <module name="epmsg-service-api" />
+        <module name="epmsg-stream" />
+        <module name="epmsg-common" />
+        <module name="epmsg-datahouse" />
+        <module name="epmsg-support" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
