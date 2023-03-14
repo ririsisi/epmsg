@@ -40,3 +40,42 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2023-03-14 10:46:23.171 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2023-03-14 10:46:23.171 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
 2023-03-14 10:46:26.838 [http-nio-8080-exec-3] INFO  com.epsoft.msg.web.TestController - log:测试log
+2023-03-14 16:44:03.155 [main] INFO  com.epsoft.msg.EpmsgApplication - Starting EpmsgApplication using Java 1.8.0_333 on risi with PID 7444 (F:\epmsg\epmsg-web\target\classes started by Administrator in F:\epmsg)
+2023-03-14 16:44:03.168 [main] INFO  com.epsoft.msg.EpmsgApplication - No active profile set, falling back to default profiles: default
+2023-03-14 16:44:04.524 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-14 16:44:04.626 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 84 ms. Found 2 JPA repository interfaces.
+2023-03-14 16:44:05.567 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-03-14 16:44:05.588 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-14 16:44:05.589 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-14 16:44:05.589 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2023-03-14 16:44:05.687 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-14 16:44:05.687 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2373 ms
+2023-03-14 16:44:05.770 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-14 16:44:05.781 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-14 16:46:41.854 [main] INFO  com.epsoft.msg.EpmsgApplication - Starting EpmsgApplication using Java 1.8.0_333 on risi with PID 10880 (F:\epmsg\epmsg-web\target\classes started by Administrator in F:\epmsg)
+2023-03-14 16:46:41.856 [main] INFO  com.epsoft.msg.EpmsgApplication - No active profile set, falling back to default profiles: default
+2023-03-14 16:46:42.401 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-14 16:46:42.449 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 2 JPA repository interfaces.
+2023-03-14 16:46:42.869 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-03-14 16:46:42.876 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-14 16:46:42.877 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-14 16:46:42.877 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2023-03-14 16:46:42.969 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-14 16:46:42.969 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1080 ms
+2023-03-14 16:46:43.189 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-14 16:46:43.400 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-14 16:46:43.498 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-14 16:46:43.680 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2023-03-14 16:46:44.230 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-14 16:46:44.438 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2023-03-14 16:46:45.634 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-14 16:46:45.650 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-14 16:46:45.975 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-14 16:46:45.986 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-03-14 16:46:45.989 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-03-14 16:46:45.990 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-14 16:46:46.000 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
