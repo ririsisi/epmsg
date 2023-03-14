@@ -1,0 +1,42 @@
+2023-03-14 10:44:14.746 [main] INFO  com.epsoft.msg.EpmsgApplication - Starting EpmsgApplication using Java 1.8.0_333 on risi with PID 18720 (F:\epmsg\epmsg-web\target\classes started by Administrator in F:\epmsg)
+2023-03-14 10:44:14.751 [main] INFO  com.epsoft.msg.EpmsgApplication - No active profile set, falling back to default profiles: default
+2023-03-14 10:44:15.666 [main] INFO  com.epsoft.msg.EpmsgApplication - Starting EpmsgApplication using Java 1.8.0_333 on risi with PID 12148 (F:\epmsg\epmsg-web\target\classes started by Administrator in F:\epmsg)
+2023-03-14 10:44:15.669 [main] INFO  com.epsoft.msg.EpmsgApplication - No active profile set, falling back to default profiles: default
+2023-03-14 10:44:16.355 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-03-14 10:44:16.365 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-14 10:44:16.366 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-14 10:44:16.366 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2023-03-14 10:44:16.465 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-14 10:44:16.466 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1631 ms
+2023-03-14 10:44:16.651 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-03-14 10:44:16.662 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-14 10:44:16.663 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-14 10:44:16.663 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2023-03-14 10:44:16.758 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-14 10:44:16.758 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1027 ms
+2023-03-14 10:44:16.958 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-03-14 10:44:16.982 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-14 10:44:16.994 [main] INFO  com.epsoft.msg.EpmsgApplication - Started EpmsgApplication in 2.936 seconds (JVM running for 6.176)
+2023-03-14 10:44:17.104 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-03-14 10:44:17.111 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2023-03-14 10:44:17.111 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-14 10:44:17.116 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2023-03-14 10:44:17.117 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2023-03-14 10:44:17.125 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-14 10:45:28.564 [main] INFO  com.epsoft.msg.EpmsgApplication - Starting EpmsgApplication using Java 1.8.0_333 on risi with PID 18252 (F:\epmsg\epmsg-web\target\classes started by Administrator in F:\epmsg)
+2023-03-14 10:45:28.568 [main] INFO  com.epsoft.msg.EpmsgApplication - No active profile set, falling back to default profiles: default
+2023-03-14 10:45:29.510 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-03-14 10:45:29.519 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-14 10:45:29.520 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-14 10:45:29.520 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2023-03-14 10:45:29.602 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-14 10:45:29.602 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 975 ms
+2023-03-14 10:45:29.941 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-03-14 10:45:29.957 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-14 10:45:29.966 [main] INFO  com.epsoft.msg.EpmsgApplication - Started EpmsgApplication in 2.004 seconds (JVM running for 4.391)
+2023-03-14 10:46:23.170 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-14 10:46:23.171 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-14 10:46:23.171 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2023-03-14 10:46:26.838 [http-nio-8080-exec-3] INFO  com.epsoft.msg.web.TestController - log:测试log
