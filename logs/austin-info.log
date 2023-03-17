@@ -1,105 +1,20 @@
-2023-03-14 10:44:14.746 [main] INFO  com.epsoft.msg.EpmsgApplication - Starting EpmsgApplication using Java 1.8.0_333 on risi with PID 18720 (F:\epmsg\epmsg-web\target\classes started by Administrator in F:\epmsg)
-2023-03-14 10:44:14.751 [main] INFO  com.epsoft.msg.EpmsgApplication - No active profile set, falling back to default profiles: default
-2023-03-14 10:44:15.666 [main] INFO  com.epsoft.msg.EpmsgApplication - Starting EpmsgApplication using Java 1.8.0_333 on risi with PID 12148 (F:\epmsg\epmsg-web\target\classes started by Administrator in F:\epmsg)
-2023-03-14 10:44:15.669 [main] INFO  com.epsoft.msg.EpmsgApplication - No active profile set, falling back to default profiles: default
-2023-03-14 10:44:16.355 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2023-03-14 10:44:16.365 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2023-03-14 10:44:16.366 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2023-03-14 10:44:16.366 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
-2023-03-14 10:44:16.465 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2023-03-14 10:44:16.466 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1631 ms
-2023-03-14 10:44:16.651 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2023-03-14 10:44:16.662 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2023-03-14 10:44:16.663 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2023-03-14 10:44:16.663 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
-2023-03-14 10:44:16.758 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2023-03-14 10:44:16.758 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1027 ms
-2023-03-14 10:44:16.958 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2023-03-14 10:44:16.982 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-2023-03-14 10:44:16.994 [main] INFO  com.epsoft.msg.EpmsgApplication - Started EpmsgApplication in 2.936 seconds (JVM running for 6.176)
-2023-03-14 10:44:17.104 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2023-03-14 10:44:17.111 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
-2023-03-14 10:44:17.111 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2023-03-14 10:44:17.116 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
-2023-03-14 10:44:17.117 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
-2023-03-14 10:44:17.125 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+2023-03-17 10:04:03.464 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2023-03-17 10:04:03.465 [main] INFO  com.epsoft.msg.EpmsgApplication - Starting EpmsgApplication using Java 1.8.0_333 on risi with PID 11776 (F:\epmsg\epmsg-web\target\classes started by Administrator in F:\epmsg)
+2023-03-17 10:04:03.489 [main] INFO  com.epsoft.msg.EpmsgApplication - No active profile set, falling back to default profiles: default
+2023-03-17 10:04:05.693 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-17 10:04:05.847 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 118 ms. Found 2 JPA repository interfaces.
+2023-03-17 10:04:07.120 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-03-17 10:04:07.143 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-17 10:04:07.144 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-17 10:04:07.144 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2023-03-17 10:04:07.313 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-17 10:04:07.313 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3700 ms
+2023-03-17 10:04:07.572 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-17 10:05:15.998 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-17 10:05:16.371 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2023-03-17 10:05:16.894 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-17 10:05:17.166 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-17 10:06:25.414 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-17 10:06:25.427 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2023-03-14 10:45:28.564 [main] INFO  com.epsoft.msg.EpmsgApplication - Starting EpmsgApplication using Java 1.8.0_333 on risi with PID 18252 (F:\epmsg\epmsg-web\target\classes started by Administrator in F:\epmsg)
-2023-03-14 10:45:28.568 [main] INFO  com.epsoft.msg.EpmsgApplication - No active profile set, falling back to default profiles: default
-2023-03-14 10:45:29.510 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2023-03-14 10:45:29.519 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2023-03-14 10:45:29.520 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2023-03-14 10:45:29.520 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
-2023-03-14 10:45:29.602 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2023-03-14 10:45:29.602 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 975 ms
-2023-03-14 10:45:29.941 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2023-03-14 10:45:29.957 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-2023-03-14 10:45:29.966 [main] INFO  com.epsoft.msg.EpmsgApplication - Started EpmsgApplication in 2.004 seconds (JVM running for 4.391)
-2023-03-14 10:46:23.170 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-03-14 10:46:23.171 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2023-03-14 10:46:23.171 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
-2023-03-14 10:46:26.838 [http-nio-8080-exec-3] INFO  com.epsoft.msg.web.TestController - log:测试log
-2023-03-14 16:44:03.155 [main] INFO  com.epsoft.msg.EpmsgApplication - Starting EpmsgApplication using Java 1.8.0_333 on risi with PID 7444 (F:\epmsg\epmsg-web\target\classes started by Administrator in F:\epmsg)
-2023-03-14 16:44:03.168 [main] INFO  com.epsoft.msg.EpmsgApplication - No active profile set, falling back to default profiles: default
-2023-03-14 16:44:04.524 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-03-14 16:44:04.626 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 84 ms. Found 2 JPA repository interfaces.
-2023-03-14 16:44:05.567 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2023-03-14 16:44:05.588 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2023-03-14 16:44:05.589 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2023-03-14 16:44:05.589 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
-2023-03-14 16:44:05.687 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2023-03-14 16:44:05.687 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2373 ms
-2023-03-14 16:44:05.770 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2023-03-14 16:44:05.781 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2023-03-14 16:46:41.854 [main] INFO  com.epsoft.msg.EpmsgApplication - Starting EpmsgApplication using Java 1.8.0_333 on risi with PID 10880 (F:\epmsg\epmsg-web\target\classes started by Administrator in F:\epmsg)
-2023-03-14 16:46:41.856 [main] INFO  com.epsoft.msg.EpmsgApplication - No active profile set, falling back to default profiles: default
-2023-03-14 16:46:42.401 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-03-14 16:46:42.449 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 2 JPA repository interfaces.
-2023-03-14 16:46:42.869 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2023-03-14 16:46:42.876 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2023-03-14 16:46:42.877 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2023-03-14 16:46:42.877 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
-2023-03-14 16:46:42.969 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2023-03-14 16:46:42.969 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1080 ms
-2023-03-14 16:46:43.189 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2023-03-14 16:46:43.400 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2023-03-14 16:46:43.498 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-03-14 16:46:43.680 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
-2023-03-14 16:46:44.230 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2023-03-14 16:46:44.438 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
-2023-03-14 16:46:45.634 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2023-03-14 16:46:45.650 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-03-14 16:46:45.975 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2023-03-14 16:46:45.986 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2023-03-14 16:46:45.989 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2023-03-14 16:46:45.990 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2023-03-14 16:46:46.000 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2023-03-14 16:48:28.734 [main] INFO  com.epsoft.msg.EpmsgApplication - Starting EpmsgApplication using Java 1.8.0_333 on risi with PID 1540 (F:\epmsg\epmsg-web\target\classes started by Administrator in F:\epmsg)
-2023-03-14 16:48:28.737 [main] INFO  com.epsoft.msg.EpmsgApplication - No active profile set, falling back to default profiles: default
-2023-03-14 16:48:29.261 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-03-14 16:48:29.317 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 2 JPA repository interfaces.
-2023-03-14 16:48:29.782 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2023-03-14 16:48:29.790 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2023-03-14 16:48:29.791 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2023-03-14 16:48:29.791 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
-2023-03-14 16:48:29.899 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2023-03-14 16:48:29.899 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1128 ms
-2023-03-14 16:48:30.022 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2023-03-14 16:48:30.210 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2023-03-14 16:48:30.259 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-03-14 16:48:30.303 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
-2023-03-14 16:48:30.470 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2023-03-14 16:48:30.575 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
-2023-03-14 16:48:31.104 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2023-03-14 16:48:31.115 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-03-14 16:48:31.968 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2023-03-14 16:48:31.993 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-2023-03-14 16:48:32.002 [main] INFO  com.epsoft.msg.EpmsgApplication - Started EpmsgApplication in 3.706 seconds (JVM running for 5.111)
-2023-03-14 16:49:05.601 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-03-14 16:49:05.601 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2023-03-14 16:49:05.602 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms

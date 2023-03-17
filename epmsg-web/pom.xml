@@ -22,16 +22,31 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <dependency>
-            <groupId>com.epsoft</groupId>
-            <artifactId>epmsg-support</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
         <!--腾讯sdk(目前用在短信上)-->
         <dependency>
             <groupId>com.tencentcloudapi</groupId>
             <artifactId>tencentcloud-sdk-java</artifactId>
             <version>3.1.510</version>
+        </dependency>
+        <dependency>
+            <groupId>com.epsoft</groupId>
+            <artifactId>epmsg-support</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.epsoft</groupId>
+            <artifactId>epmsg-service-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.epsoft</groupId>
+            <artifactId>epmsg-service-api-impl</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.epsoft</groupId>
+            <artifactId>epmsg-hander</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>
